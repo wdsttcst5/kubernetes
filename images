@@ -1,8 +1,0 @@
-#代理gcr.io上的镜像
-
-FROM k8s.gcr.io/heapster-amd64:v1.4.2
-FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.6.3
-FROM gcr.io/google_containers/kubedns-amd64:1.8
-FROM gcr.io/google_containers/kube-dnsmasq-amd64:1.4.1
-FROM gcr.io/google_containers/exechealthz-amd64:1.2
-FROM gcr.io/google_samples/gb-frontend:v3
